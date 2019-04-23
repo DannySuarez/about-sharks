@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP');
+
+
+body {
+    font-family: 'Nato Sans JP' , sans-serif;
+    background-color: rgb(205, 238, 246);
+    color: rgb(65, 65, 65);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+p, li {
+    font-family: 'Lato' ,;
+    
+}
+
