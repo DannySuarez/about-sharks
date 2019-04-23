@@ -2,26 +2,45 @@
 
 
 body {
-    font-family: 'Nato Sans JP' , sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: rgb(205, 238, 246);
     color: rgb(65, 65, 65);
+    font-size: 21px;
 }
 
-h1, h2 {
+p, ol {
     text-align: center;
 }
 
-ol {
+h1, h2 {
+    font-family: 'Nato Sans JP' , sans-serif;
     text-align: center;
 }
 
 li {
     display: inline-block;
     list-style-type: none;
+    padding: 20px;
+    border: solid;
+}
+li:hover {
+    background-color: aqua;
+}
+a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
 }
 
-p, li {
-    font-family: 'Lato' ,;
-    
+li:hover a {
+    color: rgb(194, 44, 44);
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#greatwhiteshark, #bullshark, #tigershark {
+    padding: 15px;
+}
