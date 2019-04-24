@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP');
 
-
 body {
     font-family: 'Lato', sans-serif;
     background-color: rgb(205, 238, 246);
@@ -43,4 +42,30 @@ img {
 
 #greatwhiteshark, #bullshark, #tigershark {
     padding: 15px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 15px;
+    width: 200px;
+    height: 30px;
+    font-size: 1.2em;
+}
+
+button {
+    display: block;
+    font-size: 1.2em;
+    border: solid 4px rgb(65, 65, 65);
+}
+
+button:hover {
+    background-color: aqua;
+    color: rgb(194, 44, 44);
+}
+
+section p {
+    text-align: inherit;
 }
